@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Testing Absolute Positioning</title>
+    </head>
+    <body>
+        <div
+            style="
+                width: 1600px;
+                height: 900px;
+                background-color: darkred;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+                background-image: url(&quot;Party%20scene.png&quot;);
+                background-size: cover;
+                background-position: center;
+            ">
+            <h1
+                style="
+                    position: absolute;
+                    top: 0px;
+                    left: 34%;
+                    transform: translateX(-50%);
+                    font-size: 70px;
+                    color: aliceblue;
+                    text-shadow: 5px 5px 10px red;
+                    font-family: fantasy;
+                    letter-spacing: 6px;
+                    z-index: 9999;
+                    white-space: nowrap;
+                ">
+                WELCOME TO PARTY!
+            </h1>
+
+            <div style="position: absolute; top: 180px; left: 774px">
+                <img src="batjab.png" alt="batjab" style="width: 900px; height: auto" />
+                <!-- https://www.pinterest.com/pin/801851908632201233/ -->
+            </div>
+            <div style="position: absolute; bottom: 0px; right: 170px">
+                <img src="timcheers.png" alt="timcheers" style="width: auto; height: 1000px" />
+                <!-- https://www.reddit.com/r/TimotheeChalametDaily/comments/18j4bno/timoth%C3%A9e_chalamet_at_the_wonka_screening_with_the/  -->
+            </div>
+            <div style="position: absolute; top: 150px; right: 600px; text-align: center; z-index: 1000">
+                <a href="collage2.html" style="position: relative; display: inline-block; text-decoration: none">
+                    <img src="exit_door.png" alt="Exit" style="width: 150px; height: auto" />
+                    <!--  https://www.presentermedia.com/powerpoint-clipart/exit-door-pc-pid-5152  -->
+                    <span
+                        style="
+                            position: absolute;
+                            bottom: 10px;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            font-size: 14px;
+                            color: white;
+                            background-color: rgba(0, 0, 0, 0.6);
+                            padding: 5px 10px;
+                            border-radius: 5px;
+                            white-space: nowrap;
+                            z-index: 1000;
+                        ">
+                        Done With Party?
+                    </span>
+                </a>
+            </div>
+            <div style="position: absolute; bottom: 0px; left: 600px">
+                <img src="jokerpunched.png" alt="jokerpunch" style="width: 1100px; height: auto" />
+                <!--  https://www.pinterest.com/pin/457819118352689964/  -->
+            </div>
+            <div style="position: absolute; top: 10px; right: 50px">
+                <img src="Silver_Disco_Ball.png" alt="disco" style="width: 300px; height: px" />
+                <!-- https://www.freeiconspng.com/img/27288  -->
+            </div>
+        </div>
+    </body>
+</html>
