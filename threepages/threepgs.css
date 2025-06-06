@@ -1,0 +1,54 @@
+html,
+body {
+    height: 100%;
+}
+.bg {
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container {
+    position: relative;
+    width: 92%;
+    height: 100%;
+    margin: auto;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: calc(1rem + 28vw);
+    text-align: center;
+    
+}
+a:link {
+    text-decoration: none;
+    color: aqua;
+}
+a:visited {
+    color: aqua;
+}
+a:hover {
+    background-color: darkorange;
+    padding: 40px;
+}
+a:active {
+    color: aqua;
+}
+.attrib{
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    width: 75%;
+    z-index: 100;
+    font-size: .94em; color:aqua;
+    background-color: rgba(0, 0,0, .33);
+    padding: 20px;
+    border-radius:35px;
+}
+
