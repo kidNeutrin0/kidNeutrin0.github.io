@@ -1,0 +1,14 @@
+body {
+	image-rendering: pixelated;
+}
+
+#container {
+	width: 1600px;
+	height: 900px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+	position: relative;
+	overflow: hidden;
+}

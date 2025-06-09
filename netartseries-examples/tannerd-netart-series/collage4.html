@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Testing Absolute Positioning</title>
+        <style>
+            @keyframes moveAcross {
+                from {
+                    right: -400px;
+                }
+                to {
+                    right: 100%;
+                }
+            }
+
+            .moving-image {
+                position: absolute;
+                top: 15px;
+                width: 400px;
+                height: auto;
+                opacity: 0.75;
+                animation: moveAcross 5s linear forwards;
+            }
+        </style>
+    </head>
+    <body>
+        <div
+            style="
+                width: 1600px;
+                height: 900px;
+                background-color: darkred;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+                background-image: url(&quot;wasteland.png&quot;);
+                background-size: cover;
+                background-position: center;
+                opacity: calc(90%);
+            ">
+            <h1
+                style="
+                    position: absolute;
+                    top: 750px;
+                    left: 65%;
+                    transform: translateX(-50%);
+                    font-size: 60px;
+                    color: aliceblue;
+                    text-shadow: 5px 5px 10px red;
+                    font-family: fantasy;
+                    letter-spacing: 5px;
+                    z-index: 10;
+                ">
+                NO PARTY FOR YOU!
+            </h1>
+            <div style="position: absolute; top: 180px; left: 774px">
+                <img
+                    src="mushroomcloud.png"
+                    alt="BOOM"
+                    title="BOOOOOM!"
+                    style="width: 600px; height: auto; opacity: 0.8" />
+                <!--  https://www.vecteezy.com/png/46027078-mushroom-cloud-from-nuclear-explosion-on-clear-background  -->
+            </div>
+            <div style="position: absolute; top: 130px; left: 100px">
+                <img
+                    src="mushroomcloud.png"
+                    alt="BOOM"
+                    title="BOOOOOM!"
+                    style="width: 600px; height: auto; opacity: 0.8" />
+                <!--  https://www.vecteezy.com/png/46027078-mushroom-cloud-from-nuclear-explosion-on-clear-background  -->
+            </div>
+            <div style="position: absolute; top: 310px; right: 800px; text-align: center; z-index: 1000">
+                <img src="Jokerstanding.png" alt="HAHAHA" title="HAHAHAHAHA" style="width: 300px; height: auto" />
+                <!--  https://dc.fandom.com/wiki/Joker_(Hero_Run)?file=The_Joker_Hero_Run_002.png  -->
+            </div>
+            <div style="position: absolute; bottom: 130px; left: 2px; text-align: center">
+                <img
+                    src="batmanknockeddown.png"
+                    alt="NOOO"
+                    title="DOOMED"
+                    style="width: 250px; height: auto; display: block; margin: auto" />
+                <!--  https://stablediffusionweb.com/image/21259926-batman-knocked-down-by-enemy  -->
+                <a
+                    href="collage2.html"
+                    style="
+                        font-size: large;
+                        color: whitesmoke;
+                        font-family: monospace;
+                        text-decoration: none;
+                        display: block;
+                        margin-top: 0px;
+                        background-color: rgba(0, 0, 0, 0.5);
+                    ">
+                    SAVE BATMAN!
+                </a>
+            </div>
+            <img src="bombing.png" alt="PHHHHEEEWWW" class="moving-image" />
+            <!--  https://www.britannica.com/technology/bomber-aircraft  -->
+        </div>
+    </body>
+</html>

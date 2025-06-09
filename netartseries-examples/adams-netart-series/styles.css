@@ -1,0 +1,319 @@
+
+#div1 {
+  width:1600px;
+    height: 1000px;
+  margin:auto;
+    border-style: solid;
+ border-color:black;
+    background-color:beige;
+}
+img {position:absolute;
+ top: 0px;
+ left: 0px;
+}
+#soupstand {height:1100px;
+    display: block;
+    margin-left:600px;
+    margin-top: -1px;
+    z-index: 1;
+}
+#standcat {
+    height:700px;
+    display: block;
+    margin-left:700px;
+    margin-top: 125px; 
+     z-index: 2;
+}
+#sun{
+   height:700px;
+    display: block;
+    margin-left:-150px;
+    margin-top: -150px; 
+     z-index: 1;
+}
+#clouds {
+ height:1500px;
+    display: block;
+    margin-left:-350px;
+    margin-top:-200px;
+    z-index: 1; 
+
+}
+#soup {
+    height:850px;
+    display: block;
+    margin-left:950px;
+    margin-top:275px;
+     z-index: 3;
+}
+#standlabel{
+     height:775px;
+    display: block;
+    margin-left:675px;
+    margin-top:-100px; 
+     z-index: 2;
+    
+}
+#sign{
+    height:1250px;
+    display: block;
+    margin-left:-200px;
+    margin-top: 110px; 
+     z-index:4; 
+}
+#signtext {
+     height:1250px;
+    display: block;
+    margin-left:-190px;
+    margin-top: 15px;   
+     z-index: 5;
+    
+}
+#adam {
+    
+    height:750px;
+    display: block;
+    margin-left:-200px;
+    margin-top:475px; 
+     z-index: 5;
+}
+#goodsoup { height:900px;
+    display: block;
+    margin-left:-175px;
+    margin-top:500px; 
+     z-index: 6;
+}
+#soupcat{
+   height:900px;
+    display: block;
+    margin-left:1500px;
+    margin-top:500px; 
+     z-index: 6; 
+   
+}
+#button1{position:absolute;
+    top: 0px;
+    left: 0px;
+   z-index: 7; 
+    margin-left:605px;
+    margin-top:760px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+#div2 {
+  width:1600px;
+    height: 1000px;
+  margin:auto;
+    border-style: solid;
+ border-color:black;
+    background-color:saddlebrown;
+}
+#flagpole1{
+     height:1500px;
+    display: block;
+    margin-left:-500px;
+    margin-top:-200px;
+    z-index: 1; 
+}
+#flagpole2{
+ height:1500px;
+    display: block;
+    margin-left:900px;
+    margin-top:-200px;
+    z-index: 1; 
+ 
+}
+#flag1 {
+ height:500px;
+    display: block;
+    margin-left:500px;
+    margin-top:-20px;
+    z-index: 2; 
+ 
+}
+
+#flag2{
+ 
+}
+#desk {
+    height:1100px;
+    display: block;
+    margin-left:450px;
+    margin-top:225px;
+    z-index: 1;
+}
+#judge {
+   height:400px;
+    display: block;
+    margin-left:785px;
+    margin-top:250px;
+    z-index: 2;  
+}
+#gavel{
+    
+  height:400px;
+    display: block;
+    margin-left:786px;
+    margin-top:325px;
+    z-index: 3;     
+}
+#lawyer1 {
+    height:500px;
+    display: block;
+    margin-left:100px;
+    margin-top:535px;
+    z-index: 1;   
+    
+}
+#guilty {
+  height:1000px;
+    display: block;
+    margin-left:550px;
+    margin-top:-300px;
+    z-index: 1;   
+    
+}
+#lawyer2{
+    
+    height:400px;
+    display: block;
+    margin-left:250px;
+    margin-top:625px;
+    z-index: 1;
+}
+#guard{
+    
+     height:500px;
+    display: block;
+    margin-left:1300px;
+    margin-top:550px;
+    z-index: 1;  
+}
+#retrial{
+   height:400px;
+    display: block;
+    margin-left:785px;
+    margin-top:750px;
+    z-index: 2;   
+    
+}
+#statue{
+ height:300px;
+ display: block;
+    margin-left:1100px;
+ margin-top:315px;
+    z-index: 2;
+ 
+}
+#button2{
+   position:absolute; 
+top: 0px;
+left: 0px;
+   z-index: 7; 
+    margin-left:950px;
+    margin-top:965px;
+    color: black;
+    font-size: 20px;
+    
+}
+
+#div3{
+  width:1600px;
+    height: 1000px;
+  margin:auto;
+    border-style: solid;
+ border-color:black;
+    background-color:gray;
+}
+#jail{
+ display: block;
+    margin-left:150px;
+ margin-top:-100px;
+    z-index: 2; 
+ 
+}
+
+#bail{
+ display: block;
+    margin-left:150px;
+ margin-top:50px;
+    z-index: 2; 
+ 
+}
+
+#button3{
+ position:absolute; 
+top: 0px;
+left: 0px;
+   z-index: 7; 
+    margin-left:750px;
+    margin-top:350px;
+    color: white;
+    font-size: 20px;
+ 
+}
+#bars{
+ height:900px;
+    display: block;
+    margin-left:850px;
+    margin-top:225px;
+    z-index: 2; 
+}
+
+#prison1{
+  height:600px;
+    display: block;
+    margin-left:1200px;
+    margin-top:475px;
+    z-index: 1;
+}
+#prison2{
+  height:600px;
+    display: block;
+    margin-left:800px;
+    margin-top:475px;
+    z-index: 1;
+}
+#mugshot{
+  height:750px;
+    display: block;
+    margin-left:100px;
+    margin-top:350px;
+    z-index: 1;
+}
+#board{
+  height:600px;
+ width:800px;
+    display: block;
+    margin-left:875px;
+    margin-top:-50px;
+    z-index: 1; 
+ 
+}
+#siren{
+ height:200px;
+    display: block;
+    margin-left:1100px;
+    margin-top:px;
+    z-index: 2; 
+ 
+}
+#cop{
+height:600px;
+    display: block;
+    margin-left:400px;
+    margin-top:415px;
+    z-index: 2;  
+ 
+}
+
+#lock{
+  height:200px;
+    display: block;
+    margin-left:1300px;
+    margin-top:650px;
+    z-index: 3; 
+ 
+}
